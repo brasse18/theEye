@@ -9,22 +9,47 @@
 At its core, "theEye" processes input from four simulated pixels/sensors. Through extensive training and neural network architecture, it endeavors to recognize and interpret shapes. Currently, it's designed to identify basic shapes, such as squares and lines, from its limited input.
 
 ### Shape Recognition
-                XX
-- **Full Box:** XX
-                 00
-- **Empty Box:** OO
-                          X0
-- **Left Standing Line:** XO
-                           0X
-- **Right Standing Line:** OX
-                   00
-- **Bottom Line:** XX
-                XX
-- **Top Line:** 0O
-                        X0
-- **Left Lining Line:** OX
-                         0X
-- **Right Lining Line:** X0
+      
+- **Full Box:**
+    ```
+  XX
+  XX
+  ```
+- **Empty Box:**
+    ```
+  00
+  00
+  ```
+- **Left Standing Line:**
+    ```
+  X0
+  X0
+  ```
+- **Right Standing Line:**
+    ```
+  0X
+  0X
+  ```
+- **Bottom Line:**
+    ```
+  00
+  XX
+  ```
+- **Top Line:**
+    ```
+  XX
+  00
+  ```
+- **Left Lining Line:**
+    ```
+  X0
+  0X
+  ```
+- **Right Lining Line:**
+    ```
+  0X
+  X0
+  ```
 
 ## Future Goals
 
